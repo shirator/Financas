@@ -1,0 +1,58 @@
+.form {
+    width: 350px;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form button {
+    background: #FD377E;
+    color: #fff;
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+    padding: 15px 100px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+.form input, .form select{
+    padding: 15px;
+    border: none;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+}
+
+.form label {
+    margin-bottom: 12px;
+}
+
+.form small {
+    color: #868E96;
+    margin-bottom: 20px;
+}
+
+.form .value {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerValue {
+    display: flex;
+}
+.form .value input{
+    width: 70%;
+}
+
+.form .value span {
+    position: relative;
+    top: -35px;
+    left: 120px;
+}

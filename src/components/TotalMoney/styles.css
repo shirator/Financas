@@ -1,0 +1,21 @@
+.containerValor {
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 15px;
+    width: 350px;
+}
+
+.valorTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valorTotal h3 + h3 {
+    color: #FD377E;
+}
+
+.containerValor small {
+    color: #343A40;
+}

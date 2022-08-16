@@ -1,0 +1,41 @@
+.card {
+    background: #F8F9FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card .description {
+    border-left: 30px solid transparent;
+}
+
+.cardEntrada {
+    border-left: 4px solid #03B898;
+}
+
+.cardSaida {
+    border-left: 4px solid #E9ECEF;
+}
+
+.card .value {
+    display: flex;
+    align-items: center;
+}
+
+.card .value button {
+    margin-left: 30px;
+    border-radius: 50%;
+    height: fit-content;
+    border-radius: 8px;
+    border: none;
+    background: #E9ECEF;
+}
+
+.card .value button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+}

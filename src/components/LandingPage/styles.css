@@ -1,0 +1,49 @@
+.landingPage{
+    position: fixed;
+    z-index: 2;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #212529;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ladingPage__info h3{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+
+    width: 350px;
+
+    color: #FFF;
+}
+
+.ladingPage__info small {
+    color: #FFF;
+    display: block;
+}
+
+.ladingPage__info button {
+    box-sizing: border-box;
+    background: #FD377E;
+    padding: 13px 20px;
+    width: 200px;
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.ladingPage__info button:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+    .landingPage__icon{
+        display: none;
+    }
+}
