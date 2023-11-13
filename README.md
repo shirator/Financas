@@ -1,2 +1,2 @@
-# nu-kenzie
+# Finanças
 CRUD project of your finances 
